@@ -1,0 +1,8 @@
+var a = 523478643264872368723647264872346726472364387246872364827647264872;
+var b = 2.1231231;
+
+console.log(Number.MIN_VALUE);
+console.log(Number.MAX_VALUE);
+
+
+console.log(a);
