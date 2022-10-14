@@ -2,12 +2,18 @@ import React from "react";
 import Weisheit from "./Weisheit";
 import Test from "./Test";
 import Count from "./Count";
+import Uhr from "./Uhr";
+import Umrechner from "./Umrechner";
 
 function App() {
 
     var s = "Dies ist eine Variable";
 
-    return (<>
+    return (<> 
+               <Umrechner/>
+               <hr/>
+               <Uhr />
+               <hr/>
                <Count/>
                <hr/>
                {s}<br/>

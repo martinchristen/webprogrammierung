@@ -4,7 +4,7 @@ class Count extends Component {
     constructor(props) {
         super(props);
 
-        this.state = {count: 2};
+        this.state = {count: 0};
 
         // Event Handler
         this.increase = this.increase.bind(this);
