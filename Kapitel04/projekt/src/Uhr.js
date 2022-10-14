@@ -6,8 +6,6 @@ class Uhr extends Component {
 
         this.state = {time: 'please wait, time is calculated'};
         this.updateTime = this.updateTime.bind(this);
-
-        
     }
 
     componentDidMount() {
