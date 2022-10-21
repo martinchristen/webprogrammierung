@@ -14,6 +14,13 @@ import Toolbar from '@mui/material/Toolbar';
 
 function App() {
 
+  const [render, setRender] = React.useState(false);
+
+  function buttonClicked() {
+    setRender(true);
+  }
+
+
   const styledef = {
     backgroundColor: "#000000",
     color: "white",
@@ -56,7 +63,10 @@ function App() {
 
       </AppBar>
 
-        <Umrechner />   
+  
+        <Umrechner />  
+    
+        <Button onClick={buttonClicked}>App Button</Button> 
    
     </>
   );
