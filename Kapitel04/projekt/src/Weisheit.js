@@ -8,7 +8,6 @@ function Weisheit() {
     "Der Edle schämt sich, wenn seine Worte seine Taten übertreffen.",
     "Damit nicht Sonn und Mond umsonst die Bahn beschlossen,/ Freut euch der Ruh, ihr Weggenossen."];
 
-
     var index = Math.floor(Math.random()*w.length);
     var text = w[index];
 
