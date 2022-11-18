@@ -1,0 +1,8 @@
+.body {
+    overflow: hidden;
+}
+
+.leaflet-container {
+    width: 100%;
+    height: 97vh;
+};
