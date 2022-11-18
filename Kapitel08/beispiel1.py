@@ -19,5 +19,4 @@ def form_get(request: Request):
     return templates.TemplateResponse('form.html', 
         context={'request': request, 'result': "Bitte Zahl eingeben"})
 
-
 uvicorn.run(app, host="127.0.0.1", port=8000)
